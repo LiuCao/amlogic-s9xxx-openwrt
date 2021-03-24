@@ -41,4 +41,9 @@ sed -i 's/LUCI_DEPENDS.*/LUCI_DEPENDS:=\@\(arm\|\|aarch64\)/g' package/lean/luci
 # git clone https://github.com/kenzok8/openwrt-packages.git package/openwrt-packages
 # ==========luci-theme-url==========
 # svn co https://github.com/Lienol/openwrt-package/trunk/lienol/luci-theme-bootstrap-mod package/luci-theme-bootstrap-mod
-
+# ==========uci-app-frpc==========
+git clone https://github.com/kuoruan/luci-app-frpc.git package/lean/luci-app-frpc
+# ==========luci-app-kodexplorer==========
+git clone https://github.com/PandaEgg/luci-app-kodexplorer.git package/lean/luci-app-kodexplorer
+# ==========luci-app-jd-dailybonus==========
+git clone https://github.com/jerrykuku/luci-app-jd-dailybonus.git package/lean/luci-app-jd-dailybonus
